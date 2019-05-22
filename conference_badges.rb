@@ -19,3 +19,5 @@ room_number = 7
   names.each do |name|
     puts "Hello, #{name}! You'll be assigned to room #{room_number}"
     room_number = room_number - 1
+end
+end
