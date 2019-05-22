@@ -24,7 +24,7 @@ def assign_rooms(names)
   return room_list
 end
 
-def printer
+def printer(attendees)
   assign_rooms(names).each do|result|
     puts result
   end
