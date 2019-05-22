@@ -31,3 +31,4 @@ def printer(names)
   puts room_result
   end
 end
+end
