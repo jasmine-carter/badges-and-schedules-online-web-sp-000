@@ -28,4 +28,7 @@ def printer(names)
   batch_badge_creator(names).each do|result|
   puts result
   end
+  assign_rooms(names).each do |assignment|
+    puts assignment
+  end
 end
