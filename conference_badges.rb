@@ -18,7 +18,7 @@ def assign_rooms(names)
   room_number = 7
   room_list = []
   names.each do |name|
-   puts ["Hello, #{name}! You'll be assigned to room #{room_number}"]
+   puts "Hello, #{name}! You'll be assigned to room #{room_number}"
     room_number = room_number - 1
   end
 end
