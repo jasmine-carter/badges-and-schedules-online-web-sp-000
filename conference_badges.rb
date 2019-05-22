@@ -25,7 +25,7 @@ def assign_rooms(names)
 end
 
 def printer
-assign_rooms(names).each do|result|
-  puts result
-end
+  assign_rooms(names).each do|result|
+    puts result
+  end
 end
