@@ -28,6 +28,6 @@ def printer(names)
   assign_rooms(names).each do|result|
   result_list = []
   result_list.push(result)
-  end
   puts result_list
+  end
 end
