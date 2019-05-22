@@ -24,7 +24,7 @@ def assign_rooms(names)
   return room_list
 end
 
-def printer(names)
+def printer(batch_badge_creator)
   batch_badge_creator(names).each do|result|
   puts result
   end
